@@ -1,0 +1,109 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b8e23;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #556b2f;
+}
+
+.character-display {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Styles de base */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    /* Augmenté pour les tablettes */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    /* Renforcé pour les tablettes */
+    width: 70%;
+    /* Largeur réduite pour les tablettes */
+    max-width: 600px;
+    /* Largeur maximale pour les tablettes */
+}
+
+button {
+    padding: 12px 24px;
+    /* Ajusté pour les tablettes */
+    font-size: 18px;
+    /* Ajusté pour les tablettes */
+    margin-top: 30px;
+    /* Augmenté pour les tablettes */
+}
+
+.character-display {
+    margin-top: 30px;
+    /* Augmenté pour les tablettes */
+    font-size: 20px;
+    /* Ajusté pour les tablettes */
+}
+
+/* Hover */
+button:hover {
+    background-color: #556b2f;
+}
+
+/* Media Query pour les mobiles */
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 20px;
+        /* Réduit pour les mobiles */
+        width: 90%;
+        /* Largeur maximale pour les mobiles */
+    }
+
+    button {
+        padding: 10px 20px;
+        /* Retour à la taille par défaut pour les mobiles */
+        font-size: 16px;
+        /* Taille de police par défaut pour les mobiles */
+        margin-top: 20px;
+        /* Retour à la marge par défaut pour les mobiles */
+    }
+
+    .character-display {
+        margin-top: 20px;
+        /* Retour à la marge par défaut pour les mobiles */
+        font-size: 18px;
+        /* Taille de police par défaut pour les mobiles */
+    }
+}
